@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Fathah | Digital Marketing Lead</title>
+    <meta name="description" content="Abdul Fathah - Digital Marketing Lead specializing in CRM automation, multi-channel marketing, and AI-driven marketing solutions">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/chart-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo-container">
+                <img src="images/logo.svg" alt="Abdul Fathah Logo" class="logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-split">
+                <div class="hero-left">
+                    <h1 class="animate">Abdul Fathah</h1>
+                    <p class="hero-subtitle animate delay-1">Digital Marketing Lead</p>
+                </div>
+                <div class="hero-right">
+                    <p class="hero-tagline animate delay-2">Where creativity meets analytics—with a tech twist</p>
+                    <div class="cta-buttons animate delay-3">
+                        <a href="#case-studies" class="btn btn-primary">View Case Studies</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="growth-chart-container animate delay-2">
+                <div id="growth-chart" class="chart"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animate">About Me</h2>
+            <div class="about-content">
+                <div class="about-text animate">
+                    <p>I'm an Engineer-Turned-Marketer who brings a unique blend of creativity and analytical precision to every project.</p>
+                    <p>Over six years leading marketing initiatives across UAE and India, I've discovered what truly works – and what just wastes your budget. My approach? I build marketing that not only looks fantastic but actually drives real business results.</p>
+                    <p>Growing teams from 4 to 11 specialists and managing high-value clients across real estate and healthcare has taught me that successful marketing isn't about flashy tactics – it's about creating genuine connections that convert.</p>
+                    <p>Looking for a marketing partner who speaks both creative and data? Someone who can implement advanced CRM automation while crafting campaigns that actually resonate with your audience? That's exactly where I thrive.</p>
+                    <p>I won't just promise results – I'll show you the metrics that matter for your business. Let's cut through the digital noise and build something that genuinely connects with your customers.</p>
+                    <p>Ready to transform your marketing approach? Let's talk.</p>
+                    <p>Abdul Fathah</p>
+                    <img src="images/logo.svg" alt="Abdul Fathah Logo Signature" class="signature-logo" style="height: 40px; width: auto; margin-top: 1rem;">
+                </div>
+                <div class="about-image animate delay-1">
+                    <img src="images/logo.svg" alt="Abdul Fathah" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title animate">Services</h2>
+            <div class="services-container">
+                <div class="services-slider-wrapper">
+                    <div class="services-slider" id="services-slider">
+                        <div class="service-card animate">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3 class="service-title">Strategic Campaign Planning</h3>
+                            <p class="service-description">Planning and deploying well-targeted marketing campaigns with specific aims, deadlines, and performance measurement to attract and convert customers.</p>
+                        </div>
+                        <div class="service-card animate delay-1">
+                            <div class="service-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3 class="service-title">Multi-channel Marketing</h3>
+                            <p class="service-description">Ensuring synchronization and flawless performance of marketing strategies across multiple platforms (social media, email, SEO, PPC) by evaluating channel performance and reallocating resources dynamically.</p>
+                        </div>
+                        <div class="service-card animate delay-2">
+                            <div class="service-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3 class="service-title">Marketing Automation & CRM</h3>
+                            <p class="service-description">Employing automation tools coupled with CRM systems to send personalized messages, nurture leads, and automate processes to deliver the right message at the right time.</p>
+                        </div>
+                        <div class="service-card animate">
+                            <div class="service-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="service-title">AI-Driven Marketing Solutions</h3>
+                            <p class="service-description">Leveraging artificial intelligence to analyze customer data, qualify leads, personalize marketing, automate repetitive tasks, and enhance ROI through campaign optimization.</p>
+                        </div>
+                        <div class="service-card animate delay-1">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3 class="service-title">Data Analytics & Reporting</h3>
+                            <p class="service-description">Collection and interpretation of marketing data to evaluate campaign success, analyze customer behavior, and make strategic decisions for continuous improvement.</p>
+                        </div>
+                        <div class="service-card animate delay-2">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="service-title">Team Leadership & Development</h3>
+                            <p class="service-description">Inspiring and teaching marketing teams to enhance their competencies, develop teamwork, and achieve outstanding results through effective leadership.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-arrow" id="services-prev" aria-label="Previous service">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-arrow" id="services-next" aria-label="Next service">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <h2 class="section-title animate">Case Studies</h2>
+            <div class="case-studies-container">
+                <div class="case-studies-slider-wrapper">
+                    <div class="case-studies-slider" id="case-studies-slider">
+                        <div class="case-study-card animate">
+                            <div class="case-study-image">
+                                <img src="images/case-studies/rose_brand_trends.png" alt="Rose Brand Growth Trends">
+                            </div>
+                            <div class="case-study-content">
+                                <span class="case-study-category">Brand Growth</span>
+                                <h3 class="case-study-title">Rose Brand</h3>
+                                <p>Transformed the social media presence of this rice brand, significantly increasing brand awareness and market penetration. The success led to the introduction of new B2C product lines due to increased popularity.</p>
+                                <div class="case-study-stats">
+                                    <div class="stat">
+                                        <span class="stat-value counter" data-target="1079">0</span>
+                                        <span class="stat-label">% Follower Growth</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">27.4M</span>
+                                        <span class="stat-label">Total Views</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">128K</span>
+                                        <span class="stat-label">Website Visits</span>
+                                    </div>
+                                </div>
+                                <div class="case-study-details">
+                                    <h4>Key Achievements:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Grew followers from 1,091 to 12,869</li>
+                                        <li><i class="fas fa-check"></i> Generated 35.8K content interactions</li>
+                                        <li><i class="fas fa-check"></i> Expanded female audience from 21.4% to 38.5%</li>
+                                        <li><i class="fas fa-check"></i> Increased international reach in UAE from 2.6% to 7.4%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-card animate delay-1">
+                            <div class="case-study-image">
+                                <img src="images/case-studies/education_abroad.jpg" alt="Elizabeth International UK">
+                            </div>
+                            <div class="case-study-content">
+                                <span class="case-study-category">Lead Cost Optimization</span>
+                                <h3 class="case-study-title">Elizabeth International UK</h3>
+                                <p>Dramatically reduced the cost per lead for this study abroad company through strategic campaign optimization and targeted audience refinement, without increasing their monthly ad budget of 30,000+.</p>
+                                <div class="case-study-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">378</span>
+                                        <span class="stat-label">Previous Cost Per Lead</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">94</span>
+                                        <span class="stat-label">New Cost Per Lead</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value counter" data-target="75">0</span>
+                                        <span class="stat-label">% Cost Reduction</span>
+                                    </div>
+                                </div>
+                                <div class="case-study-details">
+                                    <h4>Key Achievements:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Optimized targeting parameters to reach higher-quality prospects</li>
+                                        <li><i class="fas fa-check"></i> Implemented A/B testing across ad creatives and landing pages</li>
+                                        <li><i class="fas fa-check"></i> Refined conversion tracking to optimize for qualified leads</li>
+                                        <li><i class="fas fa-check"></i> Maintained lead quality while dramatically reducing acquisition costs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-card animate delay-2">
+                            <div class="case-study-image">
+                                <img src="images/case-studies/business_consulting.jpg" alt="11x Consulting">
+                            </div>
+                            <div class="case-study-content">
+                                <span class="case-study-category"><strong class="highlight">HIGH TICKET SERVICE</strong> Consulting</span>
+                                <h3 class="case-study-title">11x Consulting</h3>
+                                <p>Built both internal and external brand identity for this high-ticket business consulting firm. Created online and offline webinars and events, implemented CRM systems, and utilized WhatsApp API for personalized messaging.</p>
+                                <div class="case-study-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">7→22</span>
+                                        <span class="stat-label">Business Clients</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">214</span>
+                                        <span class="stat-label">% Client Growth</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">6</span>
+                                        <span class="stat-label">Months</span>
+                                    </div>
+                                </div>
+                                <div class="case-study-details">
+                                    <h4>Key Achievements:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Developed comprehensive brand identity system for premium positioning</li>
+                                        <li><i class="fas fa-check"></i> Created and executed high-conversion webinar strategy</li>
+                                        <li><i class="fas fa-check"></i> Implemented CRM with WhatsApp API integration for personalized follow-ups</li>
+                                        <li><i class="fas fa-check"></i> Established thought leadership through strategic content distribution</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-study-card animate">
+                            <div class="case-study-image">
+                                <img src="images/case-studies/marketing_agency.jpg" alt="Almeka Technologies">
+                            </div>
+                            <div class="case-study-content">
+                                <span class="case-study-category">Agency Growth</span>
+                                <h3 class="case-study-title">Almeka Technologies</h3>
+                                <p>Introduced new revenue streams and improved team efficiency at this marketing agency. Expanded the content team and implemented CRM and automation systems to better serve high-profile clients across multiple industries.</p>
+                                <div class="case-study-stats">
+                                    <div class="stat">
+                                        <span class="stat-value">4→11</span>
+                                        <span class="stat-label">Team Growth</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">3</span>
+                                        <span class="stat-label">New Revenue Streams</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="stat-value">175</span>
+                                        <span class="stat-label">% Capacity Increase</span>
+                                    </div>
+                                </div>
+                                <div class="case-study-details">
+                                    <h4>Key Achievements:</h4>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Scaled team from 4 to 11 members while maintaining quality standards</li>
+                                        <li><i class="fas fa-check"></i> Implemented CRM and automation systems for improved client management</li>
+                                        <li><i class="fas fa-check"></i> Expanded service offerings to include new digital marketing channels</li>
+                                        <li><i class="fas fa-check"></i> Managed major clients including Veranda Senior Living and Rajagiri College</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-arrow" id="case-studies-prev" aria-label="Previous case study">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-arrow" id="case-studies-next" aria-label="Next case study">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title animate">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category animate">
+                    <h3>Digital Marketing</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Social Media Marketing</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PPC & Paid Advertising</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Content Marketing</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SEO & SEM</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category animate delay-1">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CRM & Marketing Automation</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Data Analysis & Reporting</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>AI & LLM Implementation</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Web Development</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category animate delay-2">
+                    <h3>Leadership & Management</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Team Leadership</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Project Management</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Client Relationship Management</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Strategic Planning</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title animate">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item animate">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Digital Marketing Lead</h3>
+                        <p class="timeline-subtitle">Almeka Technologies, Dubai, UAE</p>
+                        <p class="timeline-description">Leading digital marketing strategies for major clients across real estate, education, and healthcare sectors. Managing a team of 11 specialists and implementing CRM automation solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Marketing Manager</h3>
+                        <p class="timeline-subtitle">11x Consulting, Dubai, UAE</p>
+                        <p class="timeline-description">Developed and executed marketing strategies for a high-ticket business consulting firm, growing client base from 7 to 22 in 6 months through targeted campaigns and personalized outreach.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Digital Marketing Specialist</h3>
+                        <p class="timeline-subtitle">Elizabeth International UK, London, UK</p>
+                        <p class="timeline-description">Optimized digital advertising campaigns for a study abroad company, reducing cost per lead from 378 to 94 while maintaining lead quality and conversion rates.</p>
+                    </div>
+                </div>
+                <div class="timeline-item animate delay-3">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2016 - 2018</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Social Media Manager</h3>
+                        <p class="timeline-subtitle">Rose Brand, Dubai, UAE</p>
+                        <p class="timeline-description">Transformed the social media presence of a B2B rice brand, growing followers by 1,079% and generating 27.4M views, contributing to the successful launch of new B2C product lines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-methods">
+                    <div class="contact-method animate">
+                        <h3><i class="fas fa-phone"></i> Phone</h3>
+                        <p>+971 545676559</p>
+                    </div>
+                    <div class="contact-method animate delay-1">
+                        <h3><i class="fas fa-envelope"></i> Email</h3>
+                        <p>cafattah@gmail.com</p>
+                    </div>
+                    <div class="contact-method animate delay-2">
+                        <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                        <p>Dubai, United Arab Emirates</p>
+                    </div>
+                </div>
+                <div class="social-links animate delay-3">
+                    <a href="https://wa.me/971545676559" target="_blank" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/infattah/" target="_blank" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/infattah/" target="_blank" aria-label="LinkedIn" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="cta-buttons mt-4 animate delay-3">
+                    <a href="tel:+97150123456" class="btn btn-primary">Call Me</a>
+                    <a href="https://linkedin.com/in/abdulfathah" class="btn btn-secondary">LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <img src="images/logo.svg" alt="Abdul Fathah Logo" class="footer-logo">
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p class="copyright">&copy; 2025 Abdul Fathah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/chart.js"></script>
+</body>
+</html>
