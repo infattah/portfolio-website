@@ -1,38 +1,46 @@
 # Abdul Fathah Portfolio
 
-A professional portfolio website for Abdul Fathah, Full Stack Growth Marketer.
+A multi-page portfolio website for Abdul Fathah, focused on growth systems, paid media, CRM, automation, and attribution.
 
 ## Tech Stack
-- **Framework**: Next.js (App Router)
+- **Framework**: Next.js App Router
 - **Language**: TypeScript
-- **Styling**: Vanilla CSS Modules
-- **Deployment**: Vercel
+- **Styling**: Global CSS
+- **Deployment**: Vercel via GitHub `main`
 
 ## Getting Started
 
-1.  **Clone the repository**:
+1. **Clone the repository**:
     ```bash
-    git clone <your-repo-url>
-    cd portfolio
+    git clone git@github.com:infattah/portfolio-website.git
+    cd portfolio-website
     ```
 
-2.  **Install dependencies**:
+2. **Install dependencies**:
     ```bash
     npm install
     ```
 
-3.  **Run the development server**:
+3. **Run the development server**:
     ```bash
     npm run dev
     ```
 
-4.  **Open in your browser**:
-    Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+4. **Verify production build**:
+    ```bash
+    npm run build
+    ```
 
-## Deployment on Vercel
+5. **Open in your browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-1.  Push your code to a GitHub repository.
-2.  Log in to [Vercel](https://vercel.com).
-3.  Click "Add New" -> "Project".
-4.  Import your GitHub repository.
-5.  Vercel will automatically detect Next.js and deploy the site.
+## Site Structure
+
+- `/` Home
+- `/about` About
+- `/work` Case studies
+- `/contact` Contact
+
+## Deployment
+
+Push changes to `origin/main`. Vercel is connected to the repository and deploys from GitHub automatically for normal site updates.

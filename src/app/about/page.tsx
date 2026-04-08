@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import SiteCta from "@/components/site/SiteCta";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import { expertise, timeline, contact } from "@/content/site";

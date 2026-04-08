@@ -6,12 +6,6 @@ export const contact = {
   location: "UAE",
 };
 
-export const homeStats = [
-  "Growth marketing across real estate, SaaS, e-commerce, and agency work",
-  "Paid media, CRM, automation, and attribution",
-  "Based in the UAE",
-];
-
 export const featuredWins = [
   {
     name: "RPI Real Estate",

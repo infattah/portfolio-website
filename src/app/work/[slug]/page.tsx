@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import SiteCta from "@/components/site/SiteCta";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import { workDetails, workItems, contact } from "@/content/site";
@@ -107,7 +106,7 @@ export default async function WorkDetailPage({
               </p>
               <div className="quote-panel animate-in delay-2" style={{ marginTop: '2rem', maxWidth: '600px' }}>
                 <p style={{ fontSize: '1.1rem', color: 'var(--foreground)', fontStyle: 'italic', fontFamily: 'var(--font-display)' }}>
-                  "{project.takeaway}"
+                  &quot;{project.takeaway}&quot;
                 </p>
               </div>
             </div>
@@ -144,7 +143,7 @@ export default async function WorkDetailPage({
             </div>
             <div className="quote-panel animate-in delay-2" style={{ marginTop: '3rem', maxWidth: '600px' }}>
               <p style={{ fontSize: '1.25rem', color: 'var(--foreground)', fontStyle: 'italic', fontFamily: 'var(--font-display)' }}>
-                "This project shows how I improve growth by fixing the system around the lead, not only the campaign generating it."
+                &quot;This project shows how I improve growth by fixing the system around the lead, not only the campaign generating it.&quot;
               </p>
             </div>
           </div>

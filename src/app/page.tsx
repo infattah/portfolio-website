@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import SiteCta from "@/components/site/SiteCta";
 import SiteFooter from "@/components/site/SiteFooter";
 import SiteHeader from "@/components/site/SiteHeader";
 import { contact, featuredWins } from "@/content/site";
@@ -53,7 +52,7 @@ export default function HomePage() {
               </div>
               <div className="hero__meta">
                 <p className="hero__statement">
-                  "I build the system behind growth, not just the campaign in front of it."
+                  &quot;I build the system behind growth, not just the campaign in front of it.&quot;
                 </p>
                 <div className="meta-row">
                   <div className="meta-item">
