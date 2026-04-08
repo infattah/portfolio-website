@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Abdul Fathah | Full Stack Growth Marketer",
-  description: "Portfolio of Abdul Fathah, a Full Stack Growth Marketer with 6+ years of experience in real estate, automotive, and SaaS.",
+  title: {
+    default: "Abdul Fathah | Growth Systems Builder",
+    template: "%s | Abdul Fathah",
+  },
+  description:
+    "Marketer first. Systems-minded by experience. Abdul Fathah builds revenue-focused marketing infrastructure across paid media, CRM, automation, tracking, and AI.",
 };
 
 export default function RootLayout({
