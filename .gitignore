@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local experiments and scratch work
+/workspace/
+/voltagent-test/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
