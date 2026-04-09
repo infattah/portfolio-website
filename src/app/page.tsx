@@ -6,7 +6,7 @@ import SiteHeader from "@/components/site/SiteHeader";
 import { contact, featuredWins } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "Abdul Fathah | Growth Systems Builder",
+  title: "Abdul Fathah | Growth Marketing Portfolio",
   description:
     "Growth marketer in the UAE focused on paid media, CRM, automation, attribution, and lead generation systems that improve pipeline quality and conversion.",
 };
@@ -19,7 +19,7 @@ export default function HomePage() {
         <section className="hero">
           <div className="container hero__grid">
             <div className="hero__content animate-in">
-              <span className="eyebrow">Growth Systems Builder</span>
+              <span className="eyebrow">Growth Marketing Portfolio</span>
               <h1 className="display">
                 Growth marketing with stronger systems behind it.
               </h1>
