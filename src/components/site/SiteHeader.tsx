@@ -30,7 +30,7 @@ export default function SiteHeader({ currentPath = "/" }: SiteHeaderProps) {
       <div className="container site-header__inner">
         <Link href="/" className="site-brand">
           <span className="site-brand__name">Abdul Fathah</span>
-          <span className="site-brand__role">Growth Systems Builder</span>
+          <span className="site-brand__role"></span>
         </Link>
         <nav className="site-nav" aria-label="Primary">
           {navItems.map((item) => (
